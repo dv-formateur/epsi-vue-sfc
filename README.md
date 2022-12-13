@@ -1,7 +1,8 @@
 # vue3-with-router
 
-Projet exemple en Vue 3, intégrant (1) un exemple de route avec paramètre et 
-(2) un exemple d'événement personnalisé entre un composant et son parent.
+Projet exemple en Vue 3, intégrant (1) un exemple de route avec paramètre, 
+(2) un exemple d'événement personnalisé entre un composant et son parent, et
+(3) un exemple de route avec query.
 
 ## Project setup
 ```

@@ -1,6 +1,8 @@
 <template>
   <div class="router"></div>
   TEST {{ id }}
+
+  {{ $route.query.order }}
 </template>
 
 <script>
