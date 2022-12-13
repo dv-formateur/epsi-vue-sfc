@@ -1,5 +1,8 @@
 # vue3-with-router
 
+Projet exemple en Vue 3, intégrant (1) un exemple de route avec paramètre et 
+(2) un exemple d'événement personnalisé entre un composant et son parent.
+
 ## Project setup
 ```
 npm install
