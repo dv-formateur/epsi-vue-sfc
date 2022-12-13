@@ -91,6 +91,7 @@
         >
       </li>
     </ul>
+    <button @click="$emit('myFirstEvent')">Action</button>
   </div>
 </template>
 

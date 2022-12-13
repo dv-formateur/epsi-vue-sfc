@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Welcome to Your Vue.js App" @myFirstEvent="displayAlert" />
   </div>
 </template>
 
@@ -13,6 +13,11 @@ export default {
   name: "HomeView",
   components: {
     HelloWorld,
+  },
+  methods: {
+    displayAlert: function () {
+      alert("myFirstEvent occurred");
+    },
   },
 };
 </script>
